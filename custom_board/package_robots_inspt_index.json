@@ -1,26 +1,34 @@
 {
-  "packages":
-  [
-    {
-      "name": "Robots INSPT",
-      "maintainer": "Informática Aplicada UTN INSPT",
-      "websiteURL": "https://...",
-      "email" : "@utn.inspt.utn.edu.ar",
-      "platforms":
-      [
-        {
-          "name": "Robot Multiplo 10",
-          "architecture": "samd",
-          "version": "0.0.26",
-          "category": "Contributed",
-          "url": "https://github.com/robotics-masters/mm1-hat-arduino/blob/master/custom_board/RoboHat-0.0.26.zip?raw=true",
-          "archiveFileName": "Robots_inspt-0.0.26.zip",
-          "checksum": "SHA-256:1927B1B20B0FFA36D1F1BFBA028F90756CEE82B42227C898417ABCFA56ADC6F6",
-          "size": "8773152",
-          "boards": [
-            {
-              "name": "Robot Multiplo 10"
-            }
+  "packages": [
+      {
+          "name": "Robots INSPT",
+          "maintainer": "Informática Aplicada UTN INSPT",
+          "websiteURL": "https://www.dixy.com.ar",
+          "email" : "israel.pavelek@utn.inspt.utn.edu.ar",
+          "help": {
+              "online": ""
+          },
+          "platforms": [
+              {
+                  "name": "Robot Multiplo 10",
+                  "architecture": "avr",
+                  "version": "0.0.26",
+                  "category": "Contributed",
+                  "help": {
+                      "online": "https://github.com/embeddedartistry/athena-bootloader"
+                  },
+                  "url": "https://github.com/isipavelek/inspt-robot/blob/main/custom_board/Robots_inspt-0.0.26.zip?raw=true",
+                  "archiveFileName": "Robots_inspt-0.0.26.zip",
+                  "checksum": "SHA-256:5B93BE9E9E40EABD2427D1CEE211817BD4BA217B2D5D67B8B349A0336564D315",
+                  "size": "222288",
+                  "boards": [
+                      {
+                          "name": "Robot Multiplo 10"
+                      }
+                  ],
+                  "toolsDependencies": []
+              }
+
           ],
           "tools": []
       }
